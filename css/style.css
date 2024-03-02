@@ -4,11 +4,12 @@ body {
 }
 
 .container {
-    margin: 0px 166px;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 .header {
-    background-image: url(../images/hero\ image.jpg);
+    background-image: url(../images/1.jpg);
     height: 100vh;
     background-repeat: no-repeat; /*борта картинки убирает*/
     background-size: cover; /*расширяет во весь экран*/
@@ -143,3 +144,121 @@ body {
     background-color: #fff;
     color: #ff7400;
 }
+
+.card-holder {  /*главный див, где будут карты*/
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 349px;
+    box-shadow: 10px 10px 40px 20px #0000001A; /*дает тени на карточки*/
+    margin-right: 31px;
+    background-color: #fff;
+    margin-top: -85px; /*поднять в верхний див*/
+    padding: 10px 10px;
+}
+
+.card-image{
+    display: flex;
+    justify-content: center;
+    padding-top: 31px;
+}
+
+.card-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: "Tinos", serif;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.card-title span{
+    color: #D67E35;
+}
+
+.card-desc{
+    text-align: center;
+    justify-content: center;
+    font-family: "Tinos", serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #656363;
+}
+
+
+/*history*/
+.history{
+    margin-top: 166px;
+    margin-left: 80px;
+}
+
+.history-title{
+    font-family: "Tinos", serif;
+    font-size: 54px;
+    font-weight: 400;
+    width: 444px;
+    text-align: center;
+}
+
+.history-title span{
+    color: orange;
+}
+
+.history-desc{
+    color: #656363;
+    font-size: 16px;
+    width: 444px;
+    text-align: center;
+    margin-top: 21px;
+}
+
+.history-number{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.number-item{
+    margin-right: 60px;
+    text-align: center;
+    font-size: 40px;
+    color: gold;
+}
+
+.number-item span{ /*спускается вниз снизу*/
+    display: block; 
+    color: #000;
+    font-size: 20px;
+}
+
+.history-images{
+    position: relative;
+}
+
+.history-holder{
+    display: flex;
+}
+
+.imageges-1{
+    position: absolute;
+    z-index: 0;
+    top: 54px;
+    left: 211px;
+}
+
+.imageges-2{
+    position: absolute;
+    z-index: 999;
+    top: -92px;
+    left: 383px;
+}
+
+.imageges-3{
+    position: absolute;
+    z-index: 999;
+    top: 241px;
+    left: 481px;
+}
+
