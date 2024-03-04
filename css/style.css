@@ -77,7 +77,6 @@ body {
     font-weight: 700;
     font-size: 25px;
     padding: 14px 18px;
-
 }
 
 .button:hover{
@@ -192,6 +191,7 @@ body {
 .history{
     margin-top: 166px;
     margin-left: 80px;
+    padding-bottom: 200px;
 }
 
 .history-title{
@@ -234,7 +234,7 @@ body {
 }
 
 .history-images{
-    position: relative;
+    position: relative; /*берет все родитель*/
 }
 
 .history-holder{
@@ -243,9 +243,9 @@ body {
 
 .imageges-1{
     position: absolute;
-    z-index: 0;
-    top: 54px;
-    left: 211px;
+    z-index: 0; /*расположение*/
+    top: 54px; /*расположение*/
+    left: 211px; /*расположение*/
 }
 
 .imageges-2{
@@ -262,3 +262,82 @@ body {
     left: 481px;
 }
 
+
+/*black-blog*/
+.black-block{
+    background-image: url(/images/bg.jpg);
+    padding: 80px 120px;
+}
+
+.block-holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-title{
+    color: #D67E34;
+    font-family: "Tinos", serif;
+    font-size: 54px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.left-text{
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.right-btn{
+    background-color: #ff7400;
+    color: #fff;
+    text-decoration: none; /*убирает подчеркивания*/
+    font-weight: 700;
+    font-size: 25px;
+    padding: 14px 18px;
+}
+
+.right-btn:hover{
+    background-color: #fff;
+    color: #ff7400;
+}
+
+/*dishes-title*/
+.dishes-title{
+    font-family: "Tinos", serif;
+    font-size: 54px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.dishes-title span{
+    color: #D67E34;
+}
+
+/*dishes*/
+
+.burgers{
+    display: flex;
+    justify-content: center;
+}
+
+.burger-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.burgers-image{
+    margin-right: 20px;
+}
+
+.burger-text{
+    font-family: "Tinos", serif;
+    font-size: 26px;
+    font-weight: 400;
+    margin-left: 20px;
+}
