@@ -514,6 +514,25 @@ body {
     display: none;
 }
 
+.block {
+    display: block;
+}
+
+.burger-slide{
+    position: absolute;
+}
+
+.buttton{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.disp {
+    display: none;
+}
+
+
 @media (max-width: 1500px) {
     .galery-content{
         display: block;
@@ -598,3 +617,6 @@ body {
         justify-content: space-between;
     }
 }
+
+
+
